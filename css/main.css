@@ -1,14 +1,40 @@
+/*socials*/
 .nav>li>a>img {
   max-width: 25px;
 }
+
+/*.social .nav>li>a {
+  padding-right: none !important;
+}*/
 
 .sociallink:hover {
   cursor: pointer;
   border-top: 1px solid black;
 }
+/*socials*/
 
+
+/*prevents navbar-collapse*/
+.navbar-collapse.collapse{
+  display: block !important;
+}
+
+.navbar-nav>li, .navbar-nav{
+  float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child{
+  margin-right: -15px !important;
+}
+
+.navbar-right{
+  float: right !important;
+}
+/*prevents navbar-collapse*/
+
+/*logo*/
 .logo{
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 hr {
@@ -16,3 +42,20 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
+/*logo*/
+
+/*product*/
+.product {
+  border: 1px solid black;
+  margin-bottom: 1.5em;
+}
+
+.details {
+  margin-left: 7px;
+}
+
+.likebutton {
+  padding-top: 10px;
+  padding-left: 20px;;
+}
+/*product*/
