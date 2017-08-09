@@ -1,11 +1,13 @@
 /*socials*/
-.nav>li>a>img {
-  max-width: 25px;
+.sociallink {
+  max-width: 35px;
 }
 
-/*.social .nav>li>a {
-  padding-right: none !important;
-}*/
+ul.social>li {
+  display: inline;
+  text-decoration: none;
+  padding-right: none;
+}
 
 .sociallink:hover {
   cursor: pointer;
