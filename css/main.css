@@ -1,4 +1,41 @@
-/*socials*/
+/*---------------center navbar---------------*/
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
+
+/*---------------center navbar---------------*/
+
+
+
+/*---------------prevents navbar-collapse---------------*/
+.navbar-collapse.collapse{
+  display: block !important;
+}
+
+.navbar-nav>li, .navbar-nav{
+  float: none !important;
+}
+
+.navbar-nav.navbar-right:last-child{
+  margin-right: -15px !important;
+}
+
+.navbar-right{
+  float: right !important;
+}
+/*---------------prevents navbar-collapse---------------*/
+
+
+
+/*---------------socials---------------*/
 .sociallink {
   max-width: 35px;
 }
@@ -13,29 +50,12 @@ ul.social>li {
   cursor: pointer;
   border-top: 1px solid black;
 }
-/*socials*/
+/*---------------socials---------------*/
 
 
-/*prevents navbar-collapse*/
-.navbar-collapse.collapse{
-  display: block !important;
-}
 
-.navbar-nav>li, .navbar-nav{
-  float: left !important;
-}
-
-.navbar-nav.navbar-right:last-child{
-  margin-right: -15px !important;
-}
-
-.navbar-right{
-  float: right !important;
-}
-/*prevents navbar-collapse*/
-
-/*logo*/
-.logo{
+/*---------------logo---------------*/
+.header{
   margin-top: 5em;
 }
 
@@ -44,9 +64,11 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
 }
-/*logo*/
+/*---------------logo---------------*/
 
-/*product*/
+
+
+/*---------------product---------------*/
 .product {
   border: 1px solid black;
   margin-bottom: 1.5em;
@@ -60,4 +82,12 @@ hr {
   padding-top: 10px;
   padding-left: 20px;;
 }
-/*product*/
+/*---------------product---------------*/
+
+
+
+/*---------------photo---------------*/
+.photo {
+  margin-bottom: .5em;
+}
+/*---------------photo---------------*/
