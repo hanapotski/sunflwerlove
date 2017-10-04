@@ -1,3 +1,7 @@
+body {
+  color: #777;
+}
+
 /*---------------center navbar---------------*/
 .navbar-nav {
     float:none;
@@ -70,7 +74,7 @@ hr {
 
 /*---------------product---------------*/
 .product {
-  border: 1px solid black;
+  border: 1px solid rgba(0,0,0,0.2);
   margin-bottom: 1.5em;
 }
 
